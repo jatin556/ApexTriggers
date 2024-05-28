@@ -6,6 +6,12 @@ Scenario 42: Trigger to prevent deactivation of an account if there’s an activ
 
 Scenario 43: Trigger to create a related contact whenever create-contact-checkbox is checked on Account updation or insertion.
 
+Scenario 17: Enforce single Primary Contact on Account.
+
+Scenario 16: Trigger to Update the Parent Account field with the Opportunity Name that has the highest Amount
+
+Scenario 15: Trigger to update techfirm's fields max salary and min salary whenever its child employee__c is inserted, updated deleted or undeleted.
+
 SCENARIO 14: Send Email to the related contacts whenever type field on account is updated.
 
 Scenario 13: Prevent duplication of Contact records based on Email & Phone.
