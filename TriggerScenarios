@@ -1,19 +1,27 @@
-Scenario20: Whenever a user gets deactivated from org, then assign all Open opportunity records to the manager.
+Scenario 20: Whenever a user gets deactivated from org, then assign all Open opportunity records to the manager.
 
-Scenario41: Trigger to show maximum closed opportunity amount on  an account without using Aggregate function.
+Scenario 41: Trigger to show maximum closed opportunity amount on  an account without using Aggregate function.
 
-Scenario42: Trigger to prevent deactivation of an account if there’s an active contact on it.
+Scenario 42: Trigger to prevent deactivation of an account if there’s an active contact on it.
 
-Scenario43: Trigger to create a related contact whenever create-contact-checkbox is checked on Account updation or insertion.
+Scenario 43: Trigger to create a related contact whenever create-contact-checkbox is checked on Account updation or insertion.
 
-Scenario10: Trigger to prevent a user from deleting an Active account.
+SCENARIO 14: Send Email to the related contacts whenever type field on account is updated.
 
-Scenario9: Trigger on the Account when the account is updated, check all the opportunities related to the account. Update all the opportunities stage to closed lost if an opportunity created date is greater than 30 days from today and stage is not equal to close won.
+Scenario 13: Prevent duplication of Contact records based on Email & Phone.
 
-Scenario8: Trigger to find sum of all related opportunities Amount of an Account.
+Scenario 12: When a case is inserted on any account, put the latest case number on the account in Latest Case Inserted field.
 
-Scenario7: Trigger to create a related contact of Account with the same phone as Account’s phone if custom checkbox field on Account is checked.
+Scenario 11: Trigger to show an error if there are already two contacts present on an account and the user tries to add one more contact on it.
 
-Scenario6: Trigger to prevent duplication of account records based on name whenever an account is inserted or updated.
+Scenario 10: Trigger to prevent a user from deleting an Active account.
 
-Scenario5: Trigger to count the number of contacts associated with an account and display the count on the Account’s custom field.
+Scenario 9: Trigger on the Account when the account is updated, check all the opportunities related to the account. Update all the opportunities stage to closed lost if an opportunity created date is greater than 30 days from today and stage is not equal to close won.
+
+Scenario 8: Trigger to find sum of all related opportunities Amount of an Account.
+
+Scenario 7: Trigger to create a related contact of Account with the same phone as Account’s phone if custom checkbox field on Account is checked.
+
+Scenario 6: Trigger to prevent duplication of account records based on name whenever an account is inserted or updated.
+
+Scenario 5: Trigger to count the number of contacts associated with an account and display the count on the Account’s custom field.

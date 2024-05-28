@@ -1,3 +1,7 @@
+/**
+ * Scenario : throw error if duplicate acc names are inserted or updated
+ */
+
 trigger TriggerScenaio06 on Account (before insert, before update) {
     Set<String> accNames = new Set<String>();
     if(trigger.isBefore) {
@@ -12,8 +16,11 @@ trigger TriggerScenaio06 on Account (before insert, before update) {
     }
 
     if(!accNames.isEmpty()) {
-        Map<String, Account> accMap = new Map<String, Account>([Select Name, Id from Account where Name IN: accNames]);
-
+        List<Account> accList = [Select Name, Id from Account where Name IN: accNames];
+        Map<String, Account> accMap = new Map<String, Account>();
+        for(Account acc : accList) {
+            accMap.put(acc.Name, acc);
+        }
         if(!accMap.isEmpty()) {
             for(Account acc : trigger.new) {
                 if(accMap.containsKey(acc.Name)) {
