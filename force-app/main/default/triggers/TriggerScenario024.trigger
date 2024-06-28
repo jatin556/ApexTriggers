@@ -1,3 +1,5 @@
+// Scenario 24: Trigger to count OpportunityLineItem whose ListPrice > 50,000 associated with Opportunity and display that count on Account's ustom field. 
+
 trigger TriggerScenario024 on OpportunityLineItem (after insert, after delete) {
     Set<Id> oppIds = new Set<Id>();
 
