@@ -1,4 +1,4 @@
-Scenario 20: Whenever a user gets deactivated from org, then assign all Open opportunity records to the manager.
+Scenario 40: Whenever a user gets deactivated from org, then assign all Open opportunity records to the manager.
 
 Scenario 41: Trigger to show maximum closed opportunity amount on  an account without using Aggregate function.
 
@@ -7,6 +7,20 @@ Scenario 42: Trigger to prevent deactivation of an account if there’s an activ
 Scenario 43: Trigger to create a related contact whenever create-contact-checkbox is checked on Account updation or insertion.
 
 Scenario 17: Enforce single Primary Contact on Account.
+
+Scenario 18: Automatically Close opportunities with probability greater than and equal to 70% when checkbox is checked on Account.
+
+Scenario 19: Automatically create elated Contact on insertion of Account and update Client Contact lookup field.
+
+Scenario 20: Trigger to count number of OpportunityLineItems associated with an Opportunity and display the count on the Account's custom field.
+
+Scenario 21: Trigger to automate Asset creation nd linking with Account on Insertion of OpportunityLineItem
+
+Scenario 22: Prevent insertion of OpportunityLineItem if Family and Product Family fields of Product and Opportunity do not match.
+
+Scenario 23: Write an Apex Trigger that create or update Tasks based on oppportunity stage changes
+
+Scenario 24: Trigger to count OpportunityLineItem whose ListPrice > 50,000 associated with Opportunity nd display that count on Account's ustom field. 
 
 Scenario 16: Trigger to Update the Parent Account field with the Opportunity Name that has the highest Amount
 
