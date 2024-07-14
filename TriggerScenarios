@@ -20,7 +20,9 @@ Scenario 22: Prevent insertion of OpportunityLineItem if Family and Product Fami
 
 Scenario 23: Write an Apex Trigger that create or update Tasks based on oppportunity stage changes
 
-Scenario 24: Trigger to count OpportunityLineItem whose ListPrice > 50,000 associated with Opportunity nd display that count on Account's ustom field. 
+Scenario 24: Trigger to count OpportunityLineItem whose ListPrice > 50,000 associated with Opportunity nd display that count on Account's ustom field.
+
+Scenario 25: Trigger to update Account's description by OpportunityLineItem's description which is associated with Opportunity.
 
 Scenario 16: Trigger to Update the Parent Account field with the Opportunity Name that has the highest Amount
 
