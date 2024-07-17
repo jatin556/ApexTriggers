@@ -24,6 +24,12 @@ Scenario 24: Trigger to count OpportunityLineItem whose ListPrice > 50,000 assoc
 
 Scenario 25: Trigger to update Account's description by OpportunityLineItem's description which is associated with Opportunity.
 
+Scenario 26 :
+
+Scenario 27 :
+
+Scenario 28 : Calculate Number of Casesfor each Accountbased on their Status (New, Working, Esclated)
+
 Scenario 16: Trigger to Update the Parent Account field with the Opportunity Name that has the highest Amount
 
 Scenario 15: Trigger to update techfirm's fields max salary and min salary whenever its child employee__c is inserted, updated deleted or undeleted.
